@@ -6,10 +6,10 @@ class HadiHelloWorld < Formula
 
   def install
     system "make"
-    bin.install "hello_world"
+    bin.install "hadi-hello-world"
   end
 
   test do
-    assert_equal "Hello, World!\n", shell_output("#{bin}/hello_world")
+    assert_equal "Hello, World!\n", shell_output("#{bin}/hadi-hello-world")
   end
 end
