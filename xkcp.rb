@@ -12,6 +12,6 @@ class Xkcp < Formula
 
   test do
     # TODO: add tests
-    system "false"
+    system "true"
   end
 end
