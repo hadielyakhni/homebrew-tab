@@ -11,6 +11,6 @@ class BrewToyFormula < Formula
   end
 
   test do
-    assert_equal "Hello, World!!!\n", shell_output("#{bin}/hadi-hello-world")
+    assert_equal "Hello, World!\n", shell_output("#{bin}/hadi-hello-world")
   end
 end
