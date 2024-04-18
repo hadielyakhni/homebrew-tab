@@ -12,6 +12,7 @@ class Xkcp < Formula
 
   test do
     # TODO: add tests
-    system "true"
+    system "make", "generic64/UnitTests"
+    system "bin/generic64/UnitTests", "-p"
   end
 end
