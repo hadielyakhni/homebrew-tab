@@ -11,9 +11,7 @@ class Xkcp < Formula
   end
 
   test do
-    # TODO: add tests
-    # system "make", "generic64/UnitTests"
-    # system "bin/generic64/UnitTests", "-p"
-    system "make", "generic64/libXKCP.a"
+    # TODO: add tests - for now it's a dummy failing test
+    system "false"
   end
 end
